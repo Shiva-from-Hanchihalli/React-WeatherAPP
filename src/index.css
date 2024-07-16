@@ -1,0 +1,171 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(152, 75, 214, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  /* Gradient background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* background-color:lightskyblue; */
+  background-image: url('https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  
+  width: 100%;
+ 
+}
+
+/* NavBar.css */
+/* NavBar.css */
+
+/* NavBar.css */
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0; /* Position at the top of the viewport */
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  color: white; /* Button text color */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+
+.logo {
+  height: 30px; /* Reduced height */
+  margin-right: 10px; /* Space between logo and text */
+}
+.about-container{
+  margin-Top: 0%;
+}
+.about-container {
+  padding: 20px;
+}
+
+.about-title {
+  color: rgb(209, 209, 231);
+  padding: 10px;
+}
+
+.about-text {
+  color:rgb(223, 230, 231);
+  margin-bottom: 20px; /* Adds space between paragraphs */
+  font-size: 20px;
+}
+.nav-link1 {
+  background-color: blue; /* Blue background */
+  border: none; /* Remove border */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for spacing */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block display */
+  text-align: center; /* Center-align text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Slightly rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link1:hover {
+  background-color: darkblue; /* Darker blue background on hover */
+  color: white; /* Keep white text color on hover */
+}
+.home-container{
+margin-bottom: 25%;
+}

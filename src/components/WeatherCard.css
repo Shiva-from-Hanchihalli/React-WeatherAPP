@@ -1,0 +1,22 @@
+/* WeatherCard.css */
+
+.weather-card {
+  background-color: #faf1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  
+  margin: 20px ; /* Center horizontally within parent */
+  color: #333;
+  
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+  color: #007BFF;
+}
+
+.weather-card p {
+  margin: 5px 0;
+}

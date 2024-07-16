@@ -1,0 +1,56 @@
+/* Weather.css */
+
+.weather-container {
+  width: 100%; /* Adjust the width as per your design */
+  max-width: 600px; /* Maximum width of the container */
+  padding: 70px; /* Padding for content inside */
+  background-color: #413c52; /* Background color for the container */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  color: #e9dede; /* Text color */
+  background-image: url('https://www.maketecheasier.com/assets/uploads/2021/11/Featured-Image-Live-Weather-Wallpapers-Android.jpg');
+}
+ 
+
+
+.weather-form-card {
+  background-color: #616d8f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto; /* Center horizontally within parent */
+  color: #333;
+}
+
+.weather-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.weather-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff3333;
+  margin-top: 10px;
+}
